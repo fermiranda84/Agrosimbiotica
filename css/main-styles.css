@@ -1,0 +1,123 @@
+.nav {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: white solid 1px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8vw;
+  }
+  .nav .nav__img {
+    width: 10vw;
+    vertical-align: middle;
+  }
+
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .carousel-indicators button {
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    transform: translateY(-40%);
+    transform: translateX(-50%);
+    bottom: initial;
+    top: 40%;
+    width: 30vw;
+    color: black;
+}
+
+.container__cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.container__cards--blog {
+  justify-content: center ;
+}
+
+#comoFunciona {
+  margin-top: 8vw;
+}
+
+.comoFunciona__imagen img {
+  width: 26vw;
+}
+
+#comoMeSumo{
+  background-color: lightgray
+}
+
+.comoMeSumo__textos {
+  display: flex;
+  margin-top: 8vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comoMeSumo__parrafo {
+  width: 50vw;
+  justify-self: center;
+}
+
+#botonEvalua {
+  display: flex;
+  justify-content: center;
+}
+
+#casosExito, #blog, #evalua, #evalua-result {
+  margin-top: 6vw;
+}
+
+.gris {
+  background-color: gray;
+}
+
+.grisClaro {
+  background-color: lightgray;
+}
+
+.grisOscuro {
+  background-color: darkgray;
+}
+
+.evalua__textos__titulo {
+  width: 8vw;
+}
+
+.evalua__items__item {
+  width: 6vw;
+}
+
+.evalua-result__items__item {
+  width: 8vw;
+}
+
+.evalua__items {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-select {
+  width: 23vw;
+}
+
+.evalua__form__button {
+  display: flex;
+  justify-content: end;
+}
+
+.evalua-result__items {
+  display: flex;
+  justify-content: center;
+}
