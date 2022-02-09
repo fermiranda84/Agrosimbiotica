@@ -121,7 +121,7 @@ body {
   color: #535353;
 }
 
-.title_sect input {
+.input_search {
   height: 55px;
   width: 545px;
   border: none;
@@ -198,6 +198,10 @@ body {
   right: 30px;
 }
 
+.border_10 {
+  border-radius: 10px;
+}
+
 .contributions {
   background-color: #fff;
   text-align: center;
@@ -272,16 +276,83 @@ body {
   margin-top: 14px;
 }
 
-.topics .history_all {
+.topics .history_all,
+.products_btn {
   font: normal normal 24px/28px Raleway;
   color: #FFFFFF;
   background: #007B00;
   border-radius: 20px;
   border: none;
-  padding: 10px 30px;
-  text-align: end;
+  text-align: center;
+  padding-top: 5px;
 }
 
 .border_right {
   border-right: 1px solid #C4C4C4;
+}
+
+/* mkt-productos */
+
+.products_btn {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dropdown-toggle {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  border: none;
+  height: 50px;
+  padding: 10px 20px;
+  text-align: start;
+}
+
+.dropdown-menu {
+  width: 220px;
+}
+
+ul.dropdown-menu.show.consultancy_ul {
+  width: 520px;
+}
+
+.dropdown-menu li {
+  padding: 5px 10px;
+}
+
+.dropdown-menu li:hover {
+  background: #007B00;
+  color: #fff;
+}
+
+.textarea_cons {
+  height: 120px;
+  width: 500px;
+  background: #F3F2EF;
+  border: 1px solid rgba(0, 123, 0, 0.6);
+  box-sizing: border-box;
+  border-radius: 10px;
+  resize: none;
+  padding-right: 5px;
+}
+
+.textarea_cons::-webkit-scrollbar {
+  color: #007B00;
+  width: 5px;
+}
+
+.textarea_cons::-webkit-scrollbar-thumb {
+  background: #007B00;
+  border-radius: 20px;
+}
+
+.consultancy_btn {
+  height: 45px;
+  width: 520px;
+  background: #F3F2EF;
+  border: 1px solid rgba(0, 123, 0, 0.6);
+  box-sizing: border-box;
+  border-radius: 20px;
 }
