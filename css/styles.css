@@ -42,7 +42,7 @@ body {
   width: 150px;
 }
 
-.sidebar #btn-sidebar {
+.sidebar #btn_sidebar {
   position: absolute;
   color: #7B7878;
   right: 24px;
@@ -55,7 +55,7 @@ body {
   transition: all .5s ease;
 }
 
-.sidebar.active #btn-sidebar {
+.sidebar.active #btn_sidebar {
   right: 50%;
 }
 
@@ -71,13 +71,13 @@ body {
   border-radius: 12px;
 }
 
-.sidebar .links-name {
+.sidebar .links_name {
   display: none;
   pointer-events: none;
   transition: all .5s ease;
 }
 
-.sidebar.active .links-name {
+.sidebar.active .links_name {
   display: block;
   pointer-events: auto;
 }
@@ -110,22 +110,22 @@ body {
 }
 
 /* title */
-.title-sect {
+.title_sect {
   margin: 20px 0 0 10px;
 }
 
-.title-sect h1 {
+.title_sect h1 {
   font: normal bold 36px/42px Raleway;
   text-transform: uppercase;
   margin-top: 10px;
   color: #535353;
 }
 
-.title-sect input {
+.title_sect input {
   height: 55px;
   width: 545px;
   border: none;
-  background-image: url("../svg/icon-search.svg");
+  background-image: url("../images/icon-search.svg");
   background-size: 16px;
   background-color: #fff;
   background-position-y: 21px;
@@ -136,11 +136,11 @@ body {
   padding: 20px 0 20px 40px;
 }
 
-.title-sect div {
+.title_sect div {
   margin-right: 50px;
 }
 
-.title-sect img {
+.title_sect img {
   margin: 0 20px;
 }
 
@@ -158,6 +158,20 @@ body {
   border-radius: 20px;
   height: 350px;
   position: relative;
+}
+
+.topics.account,
+.topics.history {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.topics.history {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
 }
 
 .topics .elements {
@@ -192,20 +206,82 @@ body {
   border-radius: 20px;
 }
 
-.contributions-data {
+.contributions_data {
   font: normal normal 20px/23px Raleway;
   color: #1C1D1F;
   margin-top: 14px;
 }
 
-.contributions-total {
+.contributions_total {
   font: normal 500 36px/42px Raleway;
   color: #1C1D1F;
   margin-top: 14px;
 }
 
-.total-description {
+.total_description {
   font: normal normal 16px/19px Raleway;
   color: #7B7878;
   margin-top: 14px;
+}
+
+/* mkt-cuenta */
+.data_sect_title {
+  font: normal normal 20px/23px Raleway;
+  color: #1C1D1F;
+  margin: 0 0 10px 5px;
+}
+
+.data_sect_title.text-center {
+  margin: 0;
+}
+
+.data_sect_desc {
+  font: normal normal 20px/23px Raleway;
+  color: #1C1D1F;
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0;
+}
+
+.img_rounded {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.history_prod {
+  width: 350px;
+  background-color: #fff;
+  border: 2px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.history_prod img {
+  width: 270px;
+  height: 190px;
+  border-radius: 10px;
+}
+
+.history_prod p {
+  font: normal normal 24px/28px Raleway;
+  color: #1C1D1F;
+  margin-top: 14px;
+}
+
+.topics .history_all {
+  font: normal normal 24px/28px Raleway;
+  color: #FFFFFF;
+  background: #007B00;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 30px;
+  text-align: end;
+}
+
+.border_right {
+  border-right: 1px solid #C4C4C4;
 }
