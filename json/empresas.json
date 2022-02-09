@@ -1,0 +1,11 @@
+[
+
+    {"id": 1, "nombre": "Olmué", "rubro": "???", "tipo": "???", "region": "???", "img": "./images/logos/olmue.svg", "descripcion": "descripcion de la empresa"},
+    {"id": 2, "nombre": "Dialco", "rubro": "???", "tipo": "???", "region": "???", "img": "./images/logos/dialco.svg", "descripcion": "descripcion de la empresa"},
+    {"id": 3, "nombre": "Frusan", "rubro": "???", "tipo": "???", "region": "???", "img": "./images/logos/frusan.svg", "descripcion": "descripcion de la empresa"},
+    {"id": 4, "nombre": "Chilolac", "rubro": "???", "tipo": "???", "region": "???", "img": "./images/logos/chilolac.svg", "descripcion": "descripcion de la empresa"},
+    {"id": 5, "nombre": "Tucapel", "rubro": "???", "tipo": "???", "region": "???", "img": "./images/logos/tucapel.svg", "descripcion": "descripcion de la empresa"},
+    {"id": 6, "nombre": "Bauducco", "rubro": "???", "tipo": "???", "region": "???", "img": "./images/logos/bauduco.svg", "descripcion": "descripcion de la empresa"},
+    {"id": 7, "nombre": "Coagra", "rubro": "???", "tipo": "???", "region": "???", "img": "./images/logos/coagra.svg", "descripcion": "descripcion de la empresa"}
+
+]
