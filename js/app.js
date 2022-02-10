@@ -119,6 +119,7 @@ evaluaFormButton.addEventListener('click', ()=>{
    
   seccionEvalua.classList.add('d-none')
   seccionEvaluaResult.classList.remove('d-none')
+  seccionEvaluaResult.classList.add('animate__animated', 'animate__fadeIn')
 
 //   fetch('../json/empresas.json')
 //         .then((respuesta) => respuesta.json())
@@ -150,4 +151,5 @@ evaluaFormButton.addEventListener('click', ()=>{
   const irAtras = () => {
     seccionEvalua.classList.remove('d-none')
     seccionEvaluaResult.classList.add('d-none')
+    seccionEvalua.classList.add('animate__animated', 'animate__fadeIn')
   }
