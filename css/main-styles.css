@@ -1,49 +1,51 @@
 .nav {
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 0.8vw;
-  }
-  .nav .nav__img {
-    width: 25vw;
-    vertical-align: middle;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8vw;
+}
 
-  .navbar-links {
-    display: flex;
-    justify-content: flex-end;
-  }
+.nav .nav__img {
+  width: 25vw;
+  vertical-align: middle;
+}
 
-  .navbar-nav {
-    display: flex;
-    align-items: flex-end;
-  }
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+}
 
-  .nav-link, .nav-item__sesion {
-    font-size: 2.5vw;
-  }
+.navbar-nav {
+  display: flex;
+  align-items: flex-end;
+}
 
-  .carousel-indicators button {
-    height: 10px !important;
-    width: 10px !important;
-    border-radius: 50%;
+.nav-link,
+.nav-item__sesion {
+  font-size: 2.5vw;
+}
+
+.carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50%;
 }
 
 .carousel-caption--izq {
-    transform: translateY(-40%);
-    transform: translateX(-50%);
-    bottom: initial;
-    top: 40%;
-    width: 35vw;
+  transform: translateY(-40%);
+  transform: translateX(-50%);
+  bottom: initial;
+  top: 40%;
+  width: 35vw;
 }
 
 .carousel-caption--der {
-    transform: translateY(-30%);
-    transform: translateX(120%);
-    top: 30%;
-    bottom: initial;
-    width: 35vw;  
+  transform: translateY(-30%);
+  transform: translateX(120%);
+  top: 30%;
+  bottom: initial;
+  width: 35vw;
 }
 
 .carousel-caption--izq p {
@@ -59,8 +61,8 @@
   margin-top: 6vw;
 }
 
-.ultimasPublicaciones__verMas{
-     text-decoration: none; 
+.ultimasPublicaciones__verMas {
+  text-decoration: none;
 }
 
 .container__cards {
@@ -80,7 +82,7 @@
 }
 
 .container__cards--blog {
-  justify-content: center ;
+  justify-content: center;
 }
 
 #comoFunciona {
@@ -99,7 +101,7 @@
   font-size: 3vw;
 }
 
-#comoMeSumo{
+#comoMeSumo {
   background-image: url('../images/fondo-unirte.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -119,7 +121,47 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.comoMeSumo__form--size, .comoMeSumo__form--size input {
+
+
+@media screen and (min-width: 1500px) {
+  .comoMeSumo__form.signup {
+    height: 600px;
+    margin-top: 30px;
+  }
+  .comoMeSumo__form--size.post div {
+    margin: 15px 0;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
+  .comoMeSumo__form.signup {
+    height: 530px;
+    margin-top: 20px;
+  }
+  .comoMeSumo__form--size.post div {
+    margin: 5px 0;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .comoMeSumo__form.signup {
+    height: 500px;
+    margin-top: 50px;
+  }
+  .comoMeSumo__form--size.post div {
+    margin: 4px 0;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .comoMeSumo__form.signup {
+    height: 425px;
+    margin-top: 50px;
+  }
+  .comoMeSumo__form--size.post div {
+    margin: 0;
+  }
+}
+
+.comoMeSumo__form--size,
+.comoMeSumo__form--size input {
   font-size: 2.5vw;
 }
 
@@ -130,26 +172,39 @@
 .comoMeSumo__buttonPrueba:hover {
   -ms-transform: scale(1.25);
   -webkit-transform: scale(1.25);
-  transform: scale(1.25); 
+  transform: scale(1.25);
 }
 
-.comoMeSumo__buttonSaber:hover{
+.comoMeSumo__buttonSaber:hover {
   transition: background-color 1s;
 }
 
-.comoMeSumo__buttonSaber:hover{
+.comoMeSumo__buttonSaber:hover {
   background-color: rgba(0, 123, 0, 0.5);
   color: white;
   border: 1px solid rgba(255, 255, 255, 0);
 }
 
+.agro_login {
+  position: absolute;
+  background: rgba(16, 16, 16, 0.4);
+  width: 100%;
+}
+
+.login_sect {
+  width: 100vw;
+  height: 100vh;
+}
 
 #botonEvalua {
   display: flex;
   justify-content: center;
 }
 
-#casosExito, #blog, #evalua, #evalua-result {
+#casosExito,
+#blog,
+#evalua,
+#evalua-result {
   margin-top: 18vw;
 }
 
@@ -247,7 +302,7 @@
   justify-content: end;
 }
 
-.evalua__form__button--color{
+.evalua__form__button--color {
   background-color: #007b00;
 }
 
@@ -293,7 +348,7 @@
   text-decoration: none;
 }
 
-.filter-white{
+.filter-white {
   filter: brightness(0) invert(1);
 }
 
@@ -302,7 +357,7 @@
 }
 
 
-@media screen and (min-width:576px) { 
+@media screen and (min-width:576px) {
 
   .evalua-result__items__item {
     width: 18vw;
@@ -310,9 +365,10 @@
 
 }
 
-@media screen and (min-width:768px) { 
+@media screen and (min-width:768px) {
 
-  .nav-link, .nav-item__sesion {
+  .nav-link,
+  .nav-item__sesion {
     font-size: 2vw;
   }
 
@@ -326,7 +382,10 @@
     font-size: 2vw;
   }
 
-  #casosExito, #blog, #evalua, #evalua-result {
+  #casosExito,
+  #blog,
+  #evalua,
+  #evalua-result {
     margin-top: 16vw;
   }
 
@@ -338,105 +397,111 @@
 
 @media screen and (min-width:992px) {
 
-    .nav-link, .nav-item__sesion {
-      font-size: 1.1vw;
-    }
+  .nav-link,
+  .nav-item__sesion {
+    font-size: 1.1vw;
+  }
 
-    .nav .nav__img {
-      width: 12vw;
-    }
+  .nav .nav__img {
+    width: 12vw;
+  }
 
-    .carousel-caption--izq {
-      transform: translateY(-30%);
-      transform: translateX(-40%);
-      top: 30%;
-    }
+  .carousel-caption--izq {
+    transform: translateY(-30%);
+    transform: translateX(-40%);
+    top: 30%;
+  }
 
-    .carousel-caption--der {
-      transform: translateY(-30%);
-      transform: translateX(120%);
-      top: 30%;
-    }
+  .carousel-caption--der {
+    transform: translateY(-30%);
+    transform: translateX(120%);
+    top: 30%;
+  }
 
-    #ultimasPublicaciones h1 {
-      text-align: center;
-    }
+  #ultimasPublicaciones h1 {
+    text-align: center;
+  }
 
-    .carousel-indicators button {
-      height: 15px !important;
-      width: 15px !important;
-    }
+  .carousel-indicators button {
+    height: 15px !important;
+    width: 15px !important;
+  }
 
-    #casosExito, #blog, #evalua, #evalua-result {
-      margin-top: 10vw;
-    }
+  #casosExito,
+  #blog,
+  #evalua,
+  #evalua-result {
+    margin-top: 10vw;
+  }
 
-    .evalua__textos__titulo {
-      width: 12vw;
-      font-size: 3vw;
-    }
+  .evalua__textos__titulo {
+    width: 12vw;
+    font-size: 3vw;
+  }
 
-    .evalua__items__item {
-      width: 8vw;
-    }
+  .evalua__items__item {
+    width: 8vw;
+  }
 
-    .form-select {
-      width: 35vw;
-    }
+  .form-select {
+    width: 35vw;
+  }
 
-    .evalua-result__items__item {
-      width: 14vw;
-    }
+  .evalua-result__items__item {
+    width: 14vw;
+  }
 
-    #evalua-result h4 {
-      font-size: 2.5vw;
-    }
+  #evalua-result h4 {
+    font-size: 2.5vw;
+  }
 
-    .comoFunciona {
-      margin-top: 5vw;
-    }
+  .comoFunciona {
+    margin-top: 5vw;
+  }
 
-    .comoFunciona__texto p {
-      font-size: 2vw;
-    }
+  .comoFunciona__texto p {
+    font-size: 2vw;
+  }
 
-    .comoMeSumo__parrafo {
-      font-size: 2vw;
-    }
+  .comoMeSumo__parrafo {
+    font-size: 2vw;
+  }
 
-    .comoMeSumo__form--width {
-      width: 30vw;
-    }
+  .comoMeSumo__form--width {
+    width: 30vw;
+  }
 
-    .comoMeSumo__form--size, .comoMeSumo__form--size input {
-      font-size: 1vw;
-    }
+  .comoMeSumo__form--size,
+  .comoMeSumo__form--size input {
+    font-size: 1vw;
+  }
 
-    .footer__logo {
-      width: 20vw;
-    }
+  .footer__logo {
+    width: 20vw;
+  }
 
-    .footer__form-controlContainer {
-      width: 20vw;
-    }
+  .footer__form-controlContainer {
+    width: 20vw;
+  }
 
-    .footer__form-control {
-      font-size: 1vw;
-      width: 15vw;
-    }
+  .footer__form-control {
+    font-size: 1vw;
+    width: 15vw;
+  }
 
-    .footer__info {
-      font-size: 1.4vw;
-    }
+  .footer__info {
+    font-size: 1.4vw;
+  }
 
 }
 
 @media screen and (min-width:1200px) {
 
-  .nav-link, .nav-item__sesion {
+  .nav-link,
+  .nav-item__sesion {
     font-size: 0.85vw;
   }
-  
+
   .navbar-nav {
     align-items: center;
   }
@@ -445,7 +510,10 @@
     width: 10vw;
   }
 
-  #casosExito, #blog, #evalua, #evalua-result {
+  #casosExito,
+  #blog,
+  #evalua,
+  #evalua-result {
     margin-top: 8vw;
   }
 
@@ -461,12 +529,13 @@
     font-size: 1.5vw;
   }
 
-  
+
 }
 
 @media screen and (min-width:1400px) {
-  
-  .nav-link, .nav-item__sesion {
+
+  .nav-link,
+  .nav-item__sesion {
     font-size: 0.8vw;
   }
 
@@ -474,7 +543,10 @@
     text-align: start;
   }
 
-  #casosExito, #blog, #evalua, #evalua-result {
+  #casosExito,
+  #blog,
+  #evalua,
+  #evalua-result {
     margin-top: 6vw;
   }
 
@@ -531,7 +603,8 @@
     width: 20vw;
   }
 
-  .comoMeSumo__form--size, .comoMeSumo__form--size input {
+  .comoMeSumo__form--size,
+  .comoMeSumo__form--size input {
     font-size: 0.75vw;
   }
 
@@ -542,4 +615,3 @@
 
 
 }
-

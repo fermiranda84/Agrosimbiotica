@@ -284,7 +284,6 @@ body {
   border-radius: 20px;
   border: none;
   text-align: center;
-  padding-top: 5px;
 }
 
 .border_right {
@@ -355,4 +354,42 @@ ul.dropdown-menu.show.consultancy_ul {
   border: 1px solid rgba(0, 123, 0, 0.6);
   box-sizing: border-box;
   border-radius: 20px;
+}
+
+/* mkt-publicar */
+.dropdown-toggle.post {
+  position: relative;
+  margin: 10px 0 0 30px;
+  height: 43px;
+  width: 440px;
+  box-shadow: none;
+  background: #EEEEEE;
+  border-radius: 20px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-menu.post {
+  width: 440px;
+}
+
+.textarea_cons.post {
+  width: 440px;
+}
+
+.w-440 {
+  width: 440px;
+}
+
+.products_btn.post {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+}
+
+.back_link {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  padding: 0;
 }
