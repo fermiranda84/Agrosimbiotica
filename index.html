@@ -90,7 +90,10 @@
           <div class="comoFunciona__texto pe-5 col-12 col-lg-5">
             <h1 class="mb-4">1 Paso</h1> 
             <p>
-              Deberas logearte cargando solo el nombre de tu empresa, tu actividad, y que residuos tienes. De esta manera entras a nuestra base de datos para generar conecciones.
+              Si eres productor de residuos orgánicos, deberás logearte cargando solo el nombre de tu empresa, tu actividad, y que residuos tienes. De esta manera entras a nuestra base de datos para generar conecciones.
+            </p>
+            <p>
+              Si buscas materiales para tus procesos, busca dentro de <a class="link-success text-decoration-none" href="./mkt-dash.html">nuestra oferta</a> lo que necesites, y nosotros te lo llevaremos a dónde estes.
             </p>
           </div>
           <div class="comoFunciona__imagen col-12 col-lg-7">
@@ -105,7 +108,7 @@
           <div class="comoFunciona__texto pe-5 col-12 col-lg-5 text-end">
             <h1 class="mb-4">2 Paso</h1> 
             <p>
-              Te contactaremos para vincular otras empresas que necesiten de tus recidos para generar la sinergia y asi ahorrarte tiempo, espacio y dinero.
+              Nuestra plataforma hará la conexión más conveniente entre la oferta y la demanda, para generar sinergia y así ahorrar tiempo, espacio y dinero mejorando el desempeño de tu empresa.
             </p>
           </div>
         </div>
@@ -114,7 +117,7 @@
           <div class="comoFunciona__texto pe-5 col-12 col-lg-5">
             <h1 class="mb-4">3 Paso</h1> 
             <p>
-              En nuestra plataforma podras visualizar los resultados luego conectar tus residuos con otras empresas, y tambien podras visualizar la huella medioambiental que tu empresa esta generando.
+              Oferta o has tu compra en nuestro Marketplace! Crea tu usuario y así podrás conectar con nuevas posibilidades de negocio, podrás visualizar tus transacciones, los ahorros y el impacto positivo que está generando en el medio ambiente.
             </p>
           </div>
           <div class="comoFunciona__imagen col-12 col-lg-7">
@@ -132,12 +135,15 @@
           <div class="row">
 
             <div class="comoMeSumo__textos col-12 col-lg-6 col-xl-5">
-              <h1 class="mb-4 mt-5 text-white">¿Querés unirte?</h1>
-              <p class="comoMeSumo__parrafo mb-5 text-white">
-                Cada vez mas PYMEs estan conectando sus recursos entre si, vos tambien podes ser parte.
+              <h1 class="mb-4 mt-5 text-white">¿Eres un generador de residuos orgánicos?</h1>
+              <p class="comoMeSumo__parrafo text-white">
+                Haz tu diagnóstico gratis y conoce como puedes mejorar el desempeño económico, ambiental y social de tu empresa.
               </p>
-              <a class="btn btn-success p-2 px-3 rounded-pill m-3 ms-0 mt-5 comoMeSumo__buttonPrueba" href="#evalua" role="button">HAZ UNA PRUEBA GRATIS</a>
-              <a class="btn btn-outline-light p-2 px-3 rounded-pill m-3 mt-5 fw-bold border-3 comoMeSumo__buttonSaber" href="#" role="button">Saber mas</a>
+              <a class="btn btn-success p-2 px-3 rounded-pill m-3 ms-0 comoMeSumo__buttonPrueba" href="#evalua" role="button">EVALÚA TUS OPORTUNIDADES</a>
+              <h1 class="mb-4 mt-2 text-white">¿Buscas material para tus procesos?</h1>
+              <p class="comoMeSumo__parrafo mb-5 text-white">
+                Suscríbete a nuestro boletín y recibe todas las noticias del sector, ofertas y los nuevos materiales de nuestro inventario.
+              </p>
             </div>
 
             <div class="comoMeSumo__form col-12 col-lg-6 col-xl-7 d-flex flex-row-reverse">
@@ -145,24 +151,27 @@
                 <h5 class="text-center text-white">Ingresá a nuestra plataforma</h5>
                 <div class="comoMeSumo__form--size mt-4">
                   <form action="mailto:maru.27@gmail.com" method="get" enctype="text/plain">
-                    <div class="mb-3">
+                    <div class="mb-4">
                       <label for="nombre" class="form-label fw-bold text-white">Nombre *</label>
                       <input type="text" class="form-control rounded-pill bg-light border-0" id="nombre" placeholder="Nombre completo" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-4">
                       <label for="direccion" class="form-label fw-bold text-white">Dirección</label>
                       <input type="text" class="form-control rounded-pill bg-light border-0" id="direccion" placeholder="Dirección de tu empresa">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-4">
                       <label for="actividad" class="form-label fw-bold text-white">Actividad *</label>
                       <input type="text" class="form-control rounded-pill bg-light border-0" id="actividad" placeholder="Actividad de tu empresa" required>
                     </div>
-                    <div class="mb-3">
-                      <label for="residuos" class="form-label fw-bold text-white">Residuos *</label>
-                      <input type="text" class="form-control rounded-pill bg-light border-0" id="residuos" placeholder="Residuos de tu empresa" required>
+                    <div class="mb-4">
+                      <label for="informacion" class="form-label fw-bold text-white">Tipo de información *</label>
+                      <select id="informacion" class="form-control rounded-pill bg-light border-0" aria-label="Default select">
+                        <option value="oferente" selected>Para oferentes</option>
+                        <option value="demandante">Para demandantes</option>
+                      </select>
                     </div>
                     <div class="d-flex justify-content-center">
-                      <button type="submit" class="btn btn-sm btn-success rounded px-5 mt-3">REGISTRARSE</button>
+                      <button type="submit" class="btn btn-sm btn-success rounded px-5 mt-3">SUSCRÍBETE</button>
                     </div>
                   </form>
                 </div>
@@ -296,10 +305,10 @@
           <div class="row">
 
             <div class="evalua__textos col-12 col-lg-4 verdeClaro text-white p-5">
-              <h1 class="mb-5 evalua__textos__titulo">EVALÚA TUS OPORTUNIDADES</h1>
-              <h5>HAZ UNA PRUEBA GRATIS!</h5>
-              <p>Comieza contandonos que haces y que tipo de residuos tienes.</p>
-              <p>Nosotros te ayudamos!</p>
+              <h1 class="mb-5 evalua__textos__titulo">¿ERES UN PRODUCTOR DE RESIDUOS?</h1>
+              <h5>EVALÚA TUS OPORTUNIDADES PARA GENERAR NUEVOS NEGOCIOS</h5>
+              <p>¿Sabías que tus residuos pueden ser material valioso para otras empresas?</p>
+              <p>Nosotros te ayudaremos a buscar tu mejor opción para mejorar tu desempeño ambiental al mismo tiempo que ahorras dinero.</p>
             </div>
 
             <div id="evalua__form" class="evalua__form col-12 col-lg-8 bg-light p-5">
