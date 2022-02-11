@@ -266,6 +266,13 @@
   background-color: darkgray;
 }
 
+.evalua__textos {
+  background-image: url('../images/fondo-evalua.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .evalua__textos__titulo {
   width: 20vw;
 }
